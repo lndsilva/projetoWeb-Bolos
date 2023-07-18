@@ -1,9 +1,46 @@
+/*Zerando o css*/
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 100%;
+}
 header{
-    background-color: aqua;
+    background-color: #333333;
+    height: 100px;
 }
-main{
-    background-color: blueviolet;
+figure, nav, ul, li{
+    display: inline;
 }
-footer{
-    background-color: chartreuse;
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#btn-entrar{
+    background-color: green;
+    border-radius: 2px;
+}
+#btn-entrar:hover{
+    background-color: rgb(6, 148, 6);
+    transition: 0.2s;
+    opacity: 0.6;
+}
+div{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;   
+    border: 2px solid red;
+    background-color: yellowgreen;    
+}
+nav{
+    position: fixed;
+    top: 50px;
+    left: 300px;
+    float: left;
+}
+img{
+    padding: 10px;
 }
